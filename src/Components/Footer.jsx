@@ -84,7 +84,7 @@ const Footer = ({page}) => {
                         </div>
                         {page === "Home2" || page === "Home3" ?
                         <>
-                            <div className="copy-right mb-5">
+                            <div className="copy-right mb-1">
                                 <p>©2022 MyLifeInsurance Solutions. All rights reserved.</p>
                             </div>
                             <div className="footer-links">
