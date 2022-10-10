@@ -7,47 +7,51 @@ const Footer = ({page}) => {
             <Container>
                 <Row>
                     <Col className={`${page === "Home" ? "text-center":"" }`}>
-                        {page === "Home" ?<div className="footer-links">
-                            <ul className="my-2 p-0">
-                            <li>
-                                <a
-                                className="text-decoration-none fw-normal"
-                                href="https://www.mylifeinsurance.co.uk/"
-                                >Home</a>
-                            </li>
-                            <li>
-                                <a
-                                className="text-decoration-none fw-normal"
-                                href="https://www.mylifeinsurance.co.uk/about-us/"
-                                >
-                                About Us</a>
-                            </li>
-                            <li>
-                                <a
-                                className="text-decoration-none fw-normal"
-                                href="https://www.mylifeinsurance.co.uk/contact-us/"
-                                >
-                                Contact Us</a>
-                            </li>
-                            <li>
-                                <a
-                                className="text-decoration-none fw-normal"
-                                href="https://www.mylifeinsurance.co.uk/terms/"
-                                >
-                                Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a
-                                className="text-decoration-none fw-normal"
-                                href="https://www.mylifeinsurance.co.uk/privacy-policy/"
-                                >
-                                Privacy Policy</a>
-                            </li>
-                            </ul>
-                        </div> : ""}
-                        <div className="copy-right">
-                            <p>©2022 MyLifeInsurance Solutions. All rights reserved.</p>
-                        </div>
+                        {page === "Home" ?
+                        <>
+                            <div className="footer-links">
+                                <ul className="my-2 p-0">
+                                    <li>
+                                        <a
+                                        className="text-decoration-none fw-normal"
+                                        href="https://www.mylifeinsurance.co.uk/"
+                                        >Home</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        className="text-decoration-none fw-normal"
+                                        href="https://www.mylifeinsurance.co.uk/about-us/"
+                                        >
+                                        About Us</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        className="text-decoration-none fw-normal"
+                                        href="https://www.mylifeinsurance.co.uk/contact-us/"
+                                        >
+                                        Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        className="text-decoration-none fw-normal"
+                                        href="https://www.mylifeinsurance.co.uk/terms/"
+                                        >
+                                        Terms & Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        className="text-decoration-none fw-normal"
+                                        href="https://www.mylifeinsurance.co.uk/privacy-policy/"
+                                        >
+                                        Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="copy-right">
+                                <p>2022 MyLifeInsurance Solutions. All rights reserved.</p>
+                            </div>
+                        </> : ""}
+                        
                         <div className="footer-text">
                             <p>
                                 MyLifeInsurance Solutions is an independent life insurance
@@ -78,44 +82,50 @@ const Footer = ({page}) => {
                                 number ZA496855.
                             </p>
                         </div>
-                        {page === "Home2" || page === "Home3" ?<div className="footer-links">
-                            <ul className="my-2 p-0">
-                                <li>
-                                    <a
-                                    className="fw-normal"
-                                    href="https://www.mylifeinsurance.co.uk/"
-                                    >Home</a>
-                                </li>
-                                <li>
-                                    <a
-                                    className="fw-normal"
-                                    href="https://www.mylifeinsurance.co.uk/about-us/"
-                                    >
-                                    About Us</a>
-                                </li>
-                                <li>
-                                    <a
-                                    className="fw-normal"
-                                    href="https://www.mylifeinsurance.co.uk/contact-us/"
-                                    >
-                                    Contact Us</a>
-                                </li>
-                                <li>
-                                    <a
-                                    className="fw-normal"
-                                    href="https://www.mylifeinsurance.co.uk/terms/"
-                                    >
-                                    Terms & Conditions</a>
-                                </li>
-                                <li>
-                                    <a
-                                    className="fw-normal"
-                                    href="https://www.mylifeinsurance.co.uk/privacy-policy/"
-                                    >
-                                    Privacy Policy</a>
-                                </li>
-                            </ul>
-                        </div> : ""}
+                        {page === "Home2" || page === "Home3" ?
+                        <>
+                            <div className="footer-links">
+                                <ul className="my-2 p-0">
+                                    <li>
+                                        <a
+                                        className="fw-normal"
+                                        href="https://www.mylifeinsurance.co.uk/"
+                                        >Home</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        className="fw-normal"
+                                        href="https://www.mylifeinsurance.co.uk/about-us/"
+                                        >
+                                        About Us</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        className="fw-normal"
+                                        href="https://www.mylifeinsurance.co.uk/contact-us/"
+                                        >
+                                        Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        className="fw-normal"
+                                        href="https://www.mylifeinsurance.co.uk/terms/"
+                                        >
+                                        Terms & Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        className="fw-normal"
+                                        href="https://www.mylifeinsurance.co.uk/privacy-policy/"
+                                        >
+                                        Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="copy-right">
+                                <p>©2022 MyLifeInsurance Solutions. All rights reserved.</p>
+                            </div>
+                        </> : ""}
                     </Col>
                 </Row>
             </Container>
