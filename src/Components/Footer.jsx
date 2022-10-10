@@ -1,5 +1,3 @@
-import { faCopyright } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -48,7 +46,7 @@ const Footer = ({page}) => {
                             </ul>
                         </div> : ""}
                         <div className="copy-right">
-                            <p><FontAwesomeIcon icon={faCopyright}/> 2022 MyLifeInsurance Solutions. All rights reserved.</p>
+                            <p>©2022 MyLifeInsurance Solutions. All rights reserved.</p>
                         </div>
                         <div className="footer-text">
                             <p>
