@@ -147,7 +147,7 @@ const InsuranceForm = ({setAmount,setCoverage,setYears,page}) => {
           </Form.Group>
           <Col md={12} className="text-center my-4">
             <button
-              className="submit-btn text-white fw-bold px-4 py-2 mt-5 fs-5 rounded-2 border-0" 
+              className="submit-btn text-white fw-bold px-4 py-2 mt-3 fs-5 rounded-2 border-0" 
               type="submit"
             >
               Compare Quotes Now

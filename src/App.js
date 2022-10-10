@@ -10,8 +10,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/home' element={<Home/>}/>
-        <Route path='/home2' element={<Home2/>}/>
-        <Route path='/home3' element={<Home3/>}/>
+        <Route path='/quotes' element={<Home2/>}/>
+        <Route path='/quotes-reviews' element={<Home3/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
     </>
