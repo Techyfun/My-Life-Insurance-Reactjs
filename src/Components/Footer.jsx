@@ -84,6 +84,9 @@ const Footer = ({page}) => {
                         </div>
                         {page === "Home2" || page === "Home3" ?
                         <>
+                            <div className="copy-right mb-5">
+                                <p>©2022 MyLifeInsurance Solutions. All rights reserved.</p>
+                            </div>
                             <div className="footer-links">
                                 <ul className="my-2 p-0">
                                     <li>
@@ -122,9 +125,7 @@ const Footer = ({page}) => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="copy-right">
-                                <p>©2022 MyLifeInsurance Solutions. All rights reserved.</p>
-                            </div>
+
                         </> : ""}
                     </Col>
                 </Row>
