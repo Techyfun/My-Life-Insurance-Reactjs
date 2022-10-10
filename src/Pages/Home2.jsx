@@ -5,7 +5,7 @@ import Insurance from "../Components/Insurance/Insurance";
 const Home2 = () => {
     return (
         <div className='index-2'>
-        <Header page={"Home2"}/>
+            <Header page={"quotes"}/>
             <Insurance page={"Home2"}/>
             <Footer page={"Home2"}/>
         </div>
