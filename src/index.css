@@ -65,6 +65,7 @@ header {
 /* insureance */
 .insureance-form {
   background: #f9f9f9;
+  border: 1px solid #dedede;
 }
 .coverage,
 .insureance-form {
@@ -105,9 +106,10 @@ legend {
 .light-blue,
 .light-blue:hover {
   background: #32699d;
+  margin-top: 10px;
 }
 .coverage {
-  padding: 11px 90px;
+  padding: 15px 60px;
 }
 .years {
   padding: 0 47px;

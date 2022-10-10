@@ -41,7 +41,7 @@ const InsuranceForm = ({setAmount,setCoverage,setYears,page}) => {
     .then(info=>console.log(info))
   };
     return (
-      <Form onSubmit={handleSubmit(onSubmit)} className={`g-3 insureance-form px-4 py-5 bg-white ${page==="Home"?"border border-secondary":"border-0"}`}>
+      <Form onSubmit={handleSubmit(onSubmit)} className={`g-3 insureance-form px-4 py-5 bg-light ${page==="Home"?"maria":"border-0"}`}>
         <legend className='mb-3'>
             Compare Life Insurance Quotes - From 
             <span className="text-danger"> £10/Month*</span>
@@ -147,7 +147,7 @@ const InsuranceForm = ({setAmount,setCoverage,setYears,page}) => {
           </Form.Group>
           <Col md={12} className="text-center my-4">
             <button
-              className="submit-btn text-white fw-bold px-4 py-4 fs-5 rounded-2 border-0" 
+              className="submit-btn text-white fw-bold px-4 py-2 mt-5 fs-5 rounded-2 border-0" 
               type="submit"
             >
               Compare Quotes Now
