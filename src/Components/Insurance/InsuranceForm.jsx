@@ -29,7 +29,7 @@ const InsuranceForm = ({setAmount,setCoverage,setYears,page}) => {
     setAmount(amount);
     setYears(time);
     setCoverage(coverAge);
-    fetch("http://localhost:5000/email/sendEmail",{
+    fetch("https://mylifeinsurance-server-production.up.railway.app/email/sendEmail",{
       method:'POST',
       body:{
         name:name,
